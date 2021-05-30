@@ -1,0 +1,5 @@
+{
+    "cmd": ["C:/Users/USER/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}

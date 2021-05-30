@@ -1,0 +1,18 @@
+// {
+//     // "shell_cmd": "make"
+
+// }
+{
+    "selector": "source.matlab",
+    "shell": true,
+
+    "windows": {
+        "cmd": ["matlab", "-nodesktop", "-nosplash", "-r", "$file_base_name"]
+    },
+    "osx": {
+        "cmd": ["matlab", "-nodisplay", "-nosplash", "-r", "$file_base_name"]
+    },
+    "linux": {
+        "cmd": ["matlab", "-nodisplay", "-nosplash", "-r", "$file_base_name"]
+    }
+}

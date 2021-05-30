@@ -1,0 +1,110 @@
+[
+    {
+    	"keys": ["ctrl+alt+b"], "command": "run_existing_window_command", "args":
+    		{
+        		"id": "repl_python_run",
+        		"file": "config/Python/Main.sublime-menu"
+    		}
+    },
+    { "keys": ["ctrl+shift+s"], "command": "auto_save" },
+
+    ///////////////////////////////////////////////////////////
+//           Jam-Es.com
+//////////////////////////////////////////////////////////
+
+
+
+    // Togle Terminus panel (at the bottom of the screen) Open/Closed when Alt+' is pressed
+    {
+        // The key press to look out for
+        "keys": ["alt+`"],
+
+        // Toggle the panel
+        "command": "toggle_terminus_panel"
+    },
+
+    // Open cmd.exe Command Prompt when Alt+1 is pressed
+    {
+        // The key press to look out for
+        "keys": ["alt+1"],
+
+        // Tell terminus to open something
+        "command": "terminus_open",
+
+        // Tell terminus what to open
+        "args" : {
+            // Open Command Prompt
+            "cmd": "cmd.exe",
+
+            // Provide Command Prompt with Current Working Directory
+            "cwd": "${file_path:${folder}}",
+
+            // Tell terminus to put it in the panel at the bottom of the screen
+            "panel_name": "Terminus"
+        }
+    },
+
+    // Open git bash when Alt+2 is pressed
+    {
+        "keys": ["alt+2"],
+        "command": "terminus_open",
+         "args" : {
+            // Tell terminus to use Git Bash
+            // Replace the path below with your path to Git Bash
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-i", "-l"],
+
+            "cwd": "${file_path:${folder}}",
+            "panel_name": "Terminus"
+         }
+    },
+    // // Open conda bash when Alt+2 is pressed
+    // {
+    //     "keys": ["alt+3"],
+    //     "command": "terminus_open",
+    //      "args" : {
+    //         // Tell terminus to use Git Bash
+    //         // Replace the path below with your path to Git Bash
+    //         "cmd": ["D:\\Users\\USER\\Anaconda3\\Scripts\\conda.exe", "-i", "-l"],
+
+    //         "cwd": "${file_path:${folder}}",
+    //         "panel_name": "Terminus"
+    //      }
+    // },
+
+    // Repitition of the above adding Alt+c and Alt+b shortcuts
+    {
+        "keys": ["alt+c"],
+        "command": "terminus_open",
+        "args" : {
+            "cmd": "cmd.exe",
+            "cwd": "${file_path:${folder}}",
+            "title": "Command Prompt",
+            "panel_name": "Terminus"
+        }
+    },
+    {
+        "keys": ["alt+b"],
+        "command": "terminus_open",
+         "args" : {
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-i", "-l"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Git Bash",
+            "panel_name": "Terminus"
+         }
+    },
+    {
+    "keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}]
+    },
+    {
+        "keys": ["ctrl+alt+t"],
+        "command": "terminus_open",
+        "args": {
+            "post_window_hooks": [
+                ["carry_file_to_pane", {"direction": "down"}]
+            ]
+        }
+    },
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+
+
+]

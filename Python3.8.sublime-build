@@ -1,0 +1,5 @@
+{
+    "cmd": ["C:/Users/USER/AppData/Roaming/Python/Python38", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "quiet": true
+}

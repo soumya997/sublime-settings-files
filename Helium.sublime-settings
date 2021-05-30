@@ -1,0 +1,4 @@
+{
+    "inline_output": false, // Set to true to show output in current view, like Jupyter
+      "output_code": false,
+}

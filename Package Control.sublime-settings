@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"auto-save",
+		"BracketHighlighter",
+		"Dark Knight Color Scheme",
+		"Dark Neon Color Scheme",
+		"Darkula Color Scheme",
+		"Dracula Color Scheme",
+		"EasyClangComplete",
+		"Facebook Material Theme",
+		"Git Message Auto Save",
+		"Guna",
+		"Helium",
+		"HTML Boilerplate",
+		"HTML5",
+		"HTML5 Doctor CSS Reset snippet",
+		"HTMLAttributes",
+		"IPython Notebook",
+		"LiveReload",
+		"Markdown HTML Preview",
+		"MarkdownEditing",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Material Color Scheme",
+		"Material Theme",
+		"One Dark Material - Theme",
+		"Origami",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"Terminus",
+		"Theme - Cobalt2",
+		"Theme - Gravity",
+		"Theme - One Dark",
+		"Theme - Seti Monokai",
+		"View In Browser",
+		"WakaTime"
+	]
+}

@@ -1,0 +1,84 @@
+{
+
+  "common_flags" : [
+
+    // some example includes
+    "-I/usr/include",
+    "-I$project_base_path/src",
+    // this is needed to include the correct headers for clang
+    "-I/usr/lib/clang/$clang_version/include",
+    // For simple projects, you can add a folder where your current file is
+    "-I$file_path",
+  ],
+  "lang_flags": {
+    "C": ["-std=c14"],
+    "CPP": ["-std=c++14"],
+    "OBJECTIVE_C": ["-std=c14"],
+    "OBJECTIVE_CPP": ["-std=c++14"],
+  },
+  // A dictionary that defines a mapping from language to an array of valid
+  // syntaxes for it. The values here are good defaults, but feel free to
+  // customize the list to your liking. When modifying this setting make sure
+  // that all 4 languages have values.
+  "valid_lang_syntaxes": {
+    "C":              ["C", "C Improved", "C99"],
+    "CPP":            ["C++", "C++11"],
+    "OBJECTIVE_C":    ["Objective-C"],
+    "OBJECTIVE_CPP":  ["Objective-C++"]
+  },
+  "flags_sources": [
+    {"file": "CMakeLists.txt"},
+    {"file": "compile_commands.json"},
+    {"file": "CppProperties.json"},
+    {"file": "c_cpp_properties.json"},
+    {"file": ".clang_complete"},
+  ],
+  "header_to_source_mapping": [
+    // Look for related files in the header's directory:
+    "./",
+
+    // And in the "src" directory:
+    "../src/",
+
+    // And in the "source" directory:
+    "../source/",
+
+    // Example: Use flags but only from the source file
+    // belonging to the header in question:
+    // "{stamp}.cpp",
+
+    // Example: Use flags from a file with an
+    // "exotic" file name suffix:
+    // "{stamp}.mycustomext
+  ],
+  // Ignore triggers and try to complete after each character.
+  // WARNING: can be very slow
+  "autocomplete_all" : false,
+
+    // "cpp_flags" : [
+    // "-std=c++11",
+    // "-Wall"   ],
+   "errors_style": "phantoms",
+   "hide_default_completions": true,
+   "gutter_style": "color",
+   "linter_mark_style": "squiggly_underline",
+   "triggers" : [ ".", "->", "::", " ", " ", "(", "[" ],
+   "progress_style": "Moon",
+   "show_type_info": false,
+   "verbose" : true,
+   "clang_binary" : "clang++",
+  // Show additional information on hover over function call/variable etc.
+  // This replaces default sublime on hover behaviour
+  "show_type_info": true,
+
+  // Show body of struct/class/typedef declaration.
+  "show_type_body" : true,
+  // We only can get declarations from clang AST. This will show references to
+  // the symbol under cursor taking them from Sublime Text index.
+  "show_index_references": true,
+  // When an includes trigger is typed (" or <) a quick panel will appear that
+  // will guide the user in picking their includes based on the current
+  // compilation database' include flags.
+  "autocomplete_includes": true,
+
+}
