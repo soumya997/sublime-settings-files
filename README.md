@@ -9,3 +9,8 @@ PS: the settings is applicable only for windows10.
 <pre>
 <img src="imgs/6.png" width="900"> <img src="imgs/5.png" width="900"> <img src="imgs/4.png" width="900"> <img src="imgs/3.png" width="900"> <img src="imgs/2.png" width="900"> <img src="imgs/1.png" width="900"> <img src="imgs/1.jpeg" width="900"> <img src="images/2.jpeg" width="900"> <img src="imgs/3.jpeg" width="900"> 
 </pre>
+
+# Extensions that I use:
+<p align="center">
+    <img src="imgs/7.png" width="300">
+</p>
