@@ -1,41 +1,14 @@
 {
-	"theme": "dracula",
-    "256color": true,
-    // "user_theme_colors": {
-    //     "background": "#262626",
-    //     "foreground": "#a2ff00",
-    //     // "caret": "white",
-    //     // "block_caret": "white",
-    //     "selection": "#444444",
-    //     "selection_foreground": "#a2ff00",
-    //     // "00": "#000000",  // black
-    //     // "01": "#cd0000",  // red
-    //     // "02": "#00cd00",  // green
-    //     // "03": "#cdcd00",  // brown
-    //     // "04": "#0000ee",  // blue
-    //     // "05": "#cd00cd",  // magenta
-    //     // "06": "#00cdcd",  // cyan
-    //     // "07": "#e5e5e5",  // white
-    //     // "08": "#7f7f7f",  // light_black
-    //     // "09": "#ff0000",  // light_red
-    //     // "10": "#00ff00",  // light_green
-    //     // "11": "#ffff00",  // light_brown
-    //     // "12": "#5c5cff",  // light_blue
-    //     // "13": "#ff00ff",  // light_magenta
-    //     // "14": "#00ffff",  // light_cyan
-    //     // "15": "#ffffff"   // light_white
-    // },
-
-    // "panel_background_color": "#f00a6a"
-    "default_config": {
-        "linux": null,    // login shell
-        "osx": null,      // login shell
-        "windows": "Command Prompt"
-    },
-    "view_settings": {
-        // these are extra view settings which are passed to the terminus_view,
-        // you could change settings like "font_face", "font_size" and paddings.
-        "font_face":"DejaVu Sans Mono for Powerline"
-    },
-
+	"256color": true,
+	"default_config":
+	{
+		"linux": null,
+		"osx": null,
+		"windows": "Command Prompt",
+	},
+	"theme": "homebrew",
+	"view_settings":
+	{
+		"font_face": "DejaVu Sans Mono for Powerline",
+	},
 }

@@ -1,14 +1,30 @@
 {
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 50,
+	"auto_complete_selector": "source - comment",
+	"auto_complete_size_limit": 4194304,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html,text.cpp",
+		}
+	],
+	"auto_complete_with_fields": false,
 	"bold_folder_labels": false,
-	"caret_style": "solid",
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 10,
+	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
-	"copy_with_empty_selection": false,
+	"color_scheme": "Packages/Theme - Seti Monokai/scheme/Seti Monokai.tmTheme",
+	"copy_with_empty_selection": true,
 	"drag_text": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "none",
 	"enable_tab_scrolling": false,
-	"ensure_newline_at_eof_on_save": true,
+	// "ensure_newline_at_eof_on_save": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -31,20 +47,17 @@
 		"*.psd",
 		"*.sublime-workspace"
 	],
+	"find_selected_text": true,
 	"font_face": "Space Mono for Powerline",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 13,
+	"font_size": 14,
 	"gn_hide_tab_dropdown": true,
 	"gn_overlay_scroll_bars": true,
 	"gn_sidebar_box": true,
 	"gn_title_bar": true,
-	"gnc_001": false,
-	"gnc_h18": true,
-	"gnc_m05": true,
-	"gnc_w5m10": true,
 	"gnwidg1": true,
 	"gnwidgo": true,
 	"highlight_line": true,
@@ -66,7 +79,7 @@
 		"OCaml",
 		"Rails",
 		"Ruby",
-		"Vintage"
+		"Vintage",
 	],
 	"installed_packages":
 	[
@@ -93,6 +106,7 @@
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
+	"save_on_focus_lost": false,
 	"scroll_past_end": true,
 	"scroll_speed": 5.0,
 	"show_definitions": false,
@@ -100,10 +114,97 @@
 	"show_errors_inline": false,
 	"show_full_path": false,
 	"sidebar_default": true,
+	"smart_indent": true,
 	"swallow_startup_errors": true,
-	"theme": "Material-Theme-Palenight.sublime-theme",
+	"theme": "OneDarkMaterial.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"word_wrap": false
+	"word_wrap": false,
+	/*"gnc_h19": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_w2m10": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w2m11": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_002": false,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w2m12": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_002": false,*/
+	/*"gnc_h22": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_w2m12": true,*/
+	/*"gnc_h20": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w1m14": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_002": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h21": true,*/
+	/*"gnc_m00": true,*/
+	/*"gnc_w2m14": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_h05": true,*/
+	/*"gnc_m05": true,*/
+	/*"gnc_w4m13": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_002": false,*/
+	/*"gnc_h21": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_w4m14": true,*/
+	/*"gnc_m06": true,*/
+	/*"gnc_w4m15": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_h05": true,*/
+	/*"gnc_m00": true,*/
+	/*"gnc_w6m14": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnc_h07": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnc_h07": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w0m15": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnc_h08": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w0m13": true,*/
+	/*"gnc_h08": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w0m13": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_h08": true,*/
+	/*"gnc_m00": true,*/
+	/*"gnc_w0m14": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnd_d02": true,*/
+	/*"gnd_m07": true,*/
+	/*"gnd_w0d11": true,*/
+	/*"gnc_h08": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_w0m14": true,*/
 }

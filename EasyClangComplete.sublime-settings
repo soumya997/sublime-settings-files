@@ -11,10 +11,10 @@
     "-I$file_path",
   ],
   "lang_flags": {
-    "C": ["-std=c14"],
-    "CPP": ["-std=c++14"],
-    "OBJECTIVE_C": ["-std=c14"],
-    "OBJECTIVE_CPP": ["-std=c++14"],
+    "C": ["-std=c17"],
+    "CPP": ["-std=c++17"],
+    "OBJECTIVE_C": ["-std=c17"],
+    "OBJECTIVE_CPP": ["-std=c++17"],
   },
   // A dictionary that defines a mapping from language to an array of valid
   // syntaxes for it. The values here are good defaults, but feel free to
@@ -22,7 +22,7 @@
   // that all 4 languages have values.
   "valid_lang_syntaxes": {
     "C":              ["C", "C Improved", "C99"],
-    "CPP":            ["C++", "C++11"],
+    "CPP":            ["C++", "C++11","C++14","C++17"],
     "OBJECTIVE_C":    ["Objective-C"],
     "OBJECTIVE_CPP":  ["Objective-C++"]
   },

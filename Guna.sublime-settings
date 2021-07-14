@@ -1,0 +1,6 @@
+// Specify your own settings. You don't need to restart
+{
+    // "sidebar_head": true,
+    "sidebar_widget": ["clock", "weather", "date"],
+    "sidebar_widget_clock_mode": "12h",
+}
