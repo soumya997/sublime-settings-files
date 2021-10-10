@@ -109,3 +109,6 @@ I needed to change the color of the comments in my color scheme, I'm using cobul
     ]
 }
 ```
+
+# Terminus Theme:
+- hipster-green
