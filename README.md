@@ -109,6 +109,9 @@ I needed to change the color of the comments in my color scheme, I'm using cobul
     ]
 }
 ```
+### Keyboard shortcut to copy the current line?
 
+- https://forum.sublimetext.com/t/keyboard-shortcut-to-copy-the-current-line/35591/8
+ 
 # Terminus Theme:
 - hipster-green
