@@ -15,6 +15,10 @@ PS: the settings is applicable only for windows10.
     <img src="imgs/7.png" width="300">
 </p>
 
+#### Packages Names:
+- Colorsublime
+
+
 # change the color of the comments from the color scheme:
 I needed to change the color of the comments in my color scheme, I'm using cobult, so it was giving me darkish blue, but i wanted it to be greenish, so I changed it.
 
